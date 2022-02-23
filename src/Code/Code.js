@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Code() {
     return (
         <div>
+          <Link to="/" style={{width: '50%', textDecoration: "none"}}>
           <h1 className="text-center" style={{fontFamily: '"Agrandir Grand"', color: '#2b73ff', fontSize: '50px', margin: '60px', marginBottom: '30px'}}>MALAIKA AIYAR</h1>
+          </Link>
           <div style={{objectFit: 'cover', padding: '0px 15vw', fontSize: '1.5vw'}}>
             <h1 className="fw-bold" style={{color: '#2b73ff', fontFamily: 'Agrandir', padding: '30px 5vw', background: '#FCFF76', boxShadow: '10px 10px 0px 2px', fontSize: '40px', width: '100%', textAlign: 'center', borderWidth: '3px', borderStyle: 'solid'}}>CODE</h1>
             <h1 style={{fontFamily: 'Agrandir', color: '#2b73ff', margin: '40px 0px 0px'}}>Projects</h1>

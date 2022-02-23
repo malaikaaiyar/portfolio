@@ -6,7 +6,9 @@ function MainContent() {
     return (
 
         <div>
+          <Link to="/" style={{width: '50%', textDecoration: "none"}}>
           <h1 className="text-center" style={{fontFamily: '"Agrandir Grand"', color: '#2b73ff', fontSize: '50px', margin: '60px', marginBottom: '30px'}}>MALAIKA AIYAR</h1>
+          </Link>
           <div>
             <div className="card-group d-lg-flex justify-content-lg-center" style={{padding: '30px', color: 'rgb(251,60,71)'}}>
               

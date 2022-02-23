@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Acad() {
     return (
         <div>
+          <Link to="/" style={{width: '50%', textDecoration: "none"}}>
           <h1 className="text-center" style={{fontFamily: '"Agrandir Grand"', color: '#2b73ff', fontSize: '50px', margin: '60px', marginBottom: '30px'}}>MALAIKA AIYAR</h1>
+          </Link>
           <div style={{padding: '0px 15vw'}}>
             <h1 className="fw-bold" style={{color: '#2b73ff', fontFamily: 'Agrandir', padding: '30px 5vw', background: 'rgb(197,207,255)', boxShadow: '10px 10px 0px 2px', fontSize: '40px', width: '100%', textAlign: 'center', borderWidth: '3px', borderStyle: 'solid'}}>ACADEMIC ACHIEVEMENTS</h1>
             <div className="justify-content-md-start align-items-lg-start" style={{color: '#2b73ff', borderWidth: '3px', borderStyle: 'solid', boxShadow: '10px 10px 0px 2px', background: '#b1ffbd', margin: '30px 0px'}}>
