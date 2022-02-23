@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Agrandir Grand';
+	src: url(../../assets/fonts/Agrandir-GrandHeavy.woff2) format('woff2'),
+	url(../../assets/fonts/Agrandir-GrandHeavy.woff) format('woff');
+	font-weight: 800;
+	font-style: normal;
+}

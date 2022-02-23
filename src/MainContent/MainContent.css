@@ -1,0 +1,4 @@
+.card-click:hover {
+    transform: translate(0, 0.375em);
+    cursor: pointer;
+}
