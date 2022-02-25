@@ -5,10 +5,10 @@ function Community() {
             <div className="container-fluid"><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-2"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon" /></button>
               <div className="collapse navbar-collapse" id="navcol-2">
                 <ul className="navbar-nav">
-                  <li className="nav-item"><a className="nav-link" href="/" style={{padding: '15px'}}>Projects</a></li>
-                  <li className="nav-item"><a className="nav-link" href="/about" style={{padding: '15px'}}>About</a></li>
-                  <li className="nav-item"><a className="nav-link" href="/art" style={{padding: '15px'}}>Artwork</a></li>
-                  <li className="nav-item"><a className="nav-link active" href="/community" style={{padding: '15px'}}>Community</a></li>
+                    <li className="nav-item"><Link to="/" className="nav-link" style={{padding: '15ps'}}>Projects</Link></li>
+                    <li className="nav-item"><Link to="/about" className="nav-link" style={{padding: '15ps'}}>About</Link></li>
+                    <li className="nav-item"><Link to="/art" className="nav-link" style={{padding: '15ps'}}>Artwork</Link></li>
+                    <li className="nav-item"><Link to="/community" className="nav-link active" style={{padding: '15ps'}}>Community</Link></li>
                 </ul>
               </div>
             </div>
