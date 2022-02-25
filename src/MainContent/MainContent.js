@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./MainContent.css"
 
 function MainContent() {
@@ -9,8 +10,13 @@ function MainContent() {
         <div className="container-fluid"><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon" /></button>
           <div className="collapse navbar-collapse" id="navcol-1">
             <ul className="navbar-nav">
-              <li className="nav-item"><a className="nav-link active" href="/" style={{padding: '15px'}}>Projects</a></li>
-              <li className="nav-item"><a className="nav-link" href="/about" style={{padding: '15px'}}>About</a></li>
+              <li className="nav-item">
+                <a className="nav-link active" href="/" style={{padding: '15px'}}>Projects</a>
+                </li>
+              <li className="nav-item">
+                <Link to="/about" className="nav-link" style={{padding: '15ps'}}>About</Link>
+                {/* <a className="nav-link" href="/about" style={{padding: '15px'}}>About</a> */}
+                </li>
               <li className="nav-item"><a className="nav-link" href="/art" style={{padding: '15px'}}>Artwork</a></li>
               <li className="nav-item"><a className="nav-link" href="/community" style={{padding: '15px'}}>Community</a></li>
             </ul>
