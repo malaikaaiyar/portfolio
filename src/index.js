@@ -5,21 +5,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import { MainContent } from './MainContent/MainContent';
-import { Code } from './Code/Code';
 import { Art } from './Art/Art'
-import { Youtube } from './Youtube/Youtube';
-import { Acad } from './Acad/Acad';
+import {About} from './About/About'
+import "@fontsource/fraunces";
+import { Community } from './Community/Community';
 
 ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/test" element={<MainContent />} />
-      <Route path="/code" element={<Code />} />
       <Route path="/art" element={<Art />} />
-      <Route path="/youtube" element={<Youtube />} />
-      <Route path="/acad" element={<Acad />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/community" element={<Community />} />
+
     </Routes>
   </Router>,
   document.getElementById("root")

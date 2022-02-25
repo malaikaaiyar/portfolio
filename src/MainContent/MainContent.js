@@ -1,72 +1,58 @@
-import { Link } from "react-router-dom";
 import "./MainContent.css"
 
 function MainContent() {
 
     return (
 
-        <div>
-          <Link to="/" style={{width: '50%', textDecoration: "none"}}>
-          <h1 className="text-center" style={{fontFamily: '"Agrandir Grand"', color: '#2b73ff', fontSize: '50px', margin: '60px', marginBottom: '30px'}}>MALAIKA AIYAR</h1>
-          </Link>
-          <div>
-            <div className="card-group d-lg-flex justify-content-lg-center" style={{padding: '30px', color: 'rgb(251,60,71)'}}>
-              
-              
-              <div className="card" style={{margin: '30px', marginTop: 0, height: '250px', background: 'transparent'}}>
-                <div className="card-body" style={{padding: '0px', borderWidth: '3px', borderStyle: 'solid', boxShadow: '0px 0px 0px 0px', background: '#FB3C47', color: '#FCFF76'}}>
-                  <h4 className="card-title" style={{textAlign: 'left', backgroundColor: 'transparent', padding: '30px', fontFamily: 'Agrandir', fontSize: '2.5vmax'}}>Hello! I am a high school student from London interested in computer science and&nbsp; art. Thanks for stopping by!</h4>
-                </div>
-              </div>
-
-              <Link to="/code" style={{width: '50%', textDecoration: "none"}}>
-              <div className="card card-click" style={{margin: '30px', height: '250px', marginTop: 0, background: 'transparent'}}>
-                <div className="card-body d-md-flex justify-content-center align-content-center justify-content-md-center align-items-md-center" style={{padding: '0px', borderWidth: '3px', borderStyle: 'solid', boxShadow: '10px 10px 0px 2px', background: '#FCFF76', color: '#2b73ff'}}>
-                  <h4 className="d-md-flex justify-content-md-center card-title" style={{textAlign: 'center', backgroundColor: 'transparent', paddingBottom: '0px', fontFamily: 'Agrandir', fontSize: '2.5vmax'}}>Code</h4>
-                </div>              
-              </div>
-              </Link>
-
-            </div>
-
-            <div className="card-group d-lg-flex justify-content-lg-center" style={{padding: '30px', paddingTop: 0}}>
-              
-            <Link to="/art" style={{width: '50%', textDecoration: "none"}}>
-              <div className="card card-click" style={{margin: '30px', height: '250px', marginTop: 0, background: 'transparent'}}>
-                <div className="card-body d-md-flex justify-content-center align-content-center justify-content-md-center align-items-md-center" style={{padding: '0px', borderWidth: '3px', borderStyle: 'solid', boxShadow: '10px 10px 0px 2px', color: '#2b73ff', background: '#febffa'}}>
-                  <h4 className="d-md-flex justify-content-md-center card-title" style={{textAlign: 'center', backgroundColor: 'transparent', paddingBottom: '0px', fontFamily: 'Agrandir', fontSize: '2.5vmax'}}>Art</h4>
-                </div>
-              </div>
-              </Link>
-              
-              <Link to="/youtube" style={{width: '50%', textDecoration: "none"}}>
-              <div className="card card-click" style={{margin: '30px', height: '250px', marginTop: 0, background: 'transparent'}}>
-                <div className="card-body d-md-flex justify-content-center align-content-center justify-content-md-center align-items-md-center" style={{padding: '0px', borderWidth: '3px', borderStyle: 'solid', boxShadow: '10px 10px 0px 2px', background: 'rgb(177,255,189)', color: '#2b73ff'}}>
-                  <h4 className="d-md-flex justify-content-md-center card-title" style={{textAlign: 'center', backgroundColor: 'transparent', paddingBottom: '0px', fontFamily: 'Agrandir', fontSize: '2.5vmax'}}>Youtube</h4>
-                </div>
-              </div>
-              </Link>
-
-            </div>
-
-            <div className="card-group d-lg-flex justify-content-lg-center" style={{padding: '30px', paddingTop: 0, color: '#2b73ff'}}>
-              
-            <Link to="/acad" style={{width: '50%', textDecoration: "none"}}>
-              <div className="card card-click" style={{margin: '30px', height: '250px', marginTop: 0, background: 'transparent'}}>
-                <div className="card-body d-md-flex justify-content-center align-content-center justify-content-md-center align-items-md-center" style={{padding: '0px', borderWidth: '3px', borderStyle: 'solid', boxShadow: '10px 10px 0px 2px', background: 'rgb(197,207,255)'}}>
-                  <h4 className="d-md-flex justify-content-md-center card-title" style={{textAlign: 'center', backgroundColor: 'transparent', paddingBottom: '0px', fontFamily: 'Agrandir', fontSize: '2.5vmax'}}>Academic<br />Stuff</h4>
-                </div>
-              </div>
-              </Link>
-              <div className="card" style={{margin: '30px', height: '250px', marginTop: 0, background: 'transparent'}}>
-                <div className="card-body d-md-flex justify-content-center align-content-center justify-content-md-center align-items-md-center" style={{padding: '0px', borderWidth: '3px', borderStyle: 'solid', background: '#FB3C47', color: '#FCFF76'}}>
-                  <a className="card-link" href="https://github.com/malaikaaiyar" style={{fontSize: '2.5vmax',color: '#fcff76',fontFamily: 'Agrandir'}}>Github</a>
-                  <a className="card-link" href="https://www.linkedin.com/in/malaika-aiyar-ab63751b5/" style={{fontSize: '2.5vmax',color: '#fcff76',fontFamily: 'Agrandir'}}>Linkedin</a>
-                </div>
+      <div>
+      <nav className="navbar navbar-light navbar-expand-md sticky-top" style={{padding: '8px', background: '#fefaf6'}}>
+        <div className="container-fluid"><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon" /></button>
+          <div className="collapse navbar-collapse" id="navcol-1">
+            <ul className="navbar-nav">
+              <li className="nav-item"><a className="nav-link active" href="/" style={{padding: '15px'}}>Projects</a></li>
+              <li className="nav-item"><a className="nav-link" href="/about" style={{padding: '15px'}}>About</a></li>
+              <li className="nav-item"><a className="nav-link" href="/art" style={{padding: '15px'}}>Artwork</a></li>
+              <li className="nav-item"><a className="nav-link" href="/community" style={{padding: '15px'}}>Community</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div className="container" style={{marginBottom: '30px'}}>
+        <div className="row" style={{height: '100%', margin: '0px 10px'}}>
+          <div className="col-md-6 align-self-center">
+            <h1 style={{fontFamily: 'Fraunces, serif', fontSize: '70px'}}>Hi. I'm Malaika.</h1>
+            <p style={{fontSize: '3vh'}}>I build apps, solve hard maths and computing problems, and inspire girls to choose tech careers.</p>
+          </div>
+          <div className="col-md-6 div-gradient-col" style={{padding: '50px', paddingTop: '10px', height: '90vh'}}>
+            <div style={{height: '100%', borderRadius: '40px', background: 'url("assets/img/me-home.png") center / contain no-repeat, linear-gradient(139deg, #fffb99 0%, #90eec7 85%)'}} />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col" style={{lineHeight: '30px'}}>
+            <div className="row" style={{padding: '30px', borderRadius: '30px', background: 'linear-gradient(-127deg, #feaaa6, #ffedd1 63%), #ffd1dc', margin: '30px'}}>
+              <div className="col-md-6 img-project-col" style={{padding: '0px'}}><img alt="sparkle-gif" className="img-project" src="assets/img/ezgif.com-gif-maker%20(3).gif" style={{borderRadius: '20px', width: '100%', margin: '10px'}} /><img alt="sparkle-gif-2" className="img-project" src="assets/img/ezgif.com-gif-maker%20(4).gif" style={{borderRadius: '20px', width: '100%', margin: '10px'}} /></div>
+              <div className="col-md-6 align-self-center col-project-text">
+                <h1 className="text-end" style={{marginTop: '10px'}}>Sparkle</h1>
+                <p className="project-text-p" style={{padding: '20px', paddingRight: '0px', paddingLeft: '50px', textAlign: 'justify'}}>I worked at a company called Sparkle, whose aim is to make social events more fun and easy to access. I mainly worked on frontend features, refinement of existing features, and QA testing. Our most major event was hosting a completely virtual Burning Man. Burning Man is all about being a part of a community and sharing creative content, and we had to think about how we wanted to present the event in a way that fosters connection and building community. We created a completely new Playa map that you could navigate around to emulate the feeling of being on a real desert. Users could visit venues like flying art galleries, music concerts, meditation zones, interactive exhibitions, and even watch the literal man burning. It was a huge success: we managed to implement an entirely new format in just months, and the platform managed to handle thousands of users moving around and on video call throughout the week.</p>
               </div>
             </div>
           </div>
         </div>
+        <div className="row">
+          <div className="col">
+            <div className="row" style={{padding: '30px', borderRadius: '30px', background: 'linear-gradient(130deg, #F7E7BF 12%, #F9CCF5), #fffdc3', margin: '30px'}}>
+              <div className="col-md-6" style={{padding: '0px'}}><img alt="art app gif" src="assets/img/ezgif.com-gif-maker.gif" style={{borderRadius: '20px', width: '100%', margin: '10px'}} /></div>
+              <div className="col-md-6 align-self-center">
+                <h1 className="text-end" style={{marginTop: '10px'}}>Art History Visualiser</h1>
+                <p className="project-text-p" style={{padding: '20px', paddingRight: '0px', paddingLeft: '50px', textAlign: 'justify', lineHeight: '30px'}}>When visiting art galleries, it is often difficult to understand the context of when a piece was made, and the similarities and differences it has to pieces from the same time. Using data from the Tate, I created a web app with a timeline slider that displays art pieces by year, as well as the related art movements and other metadata.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       );
 
 }
