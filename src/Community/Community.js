@@ -32,22 +32,30 @@ function Community() {
           <div className="container">
             <div className="row d-xl-flex flex-fill justify-content-evenly">
               <div className="col-md-4 col-video-summary" style={{background: 'transparent', borderRadius: '15px', padding: '0px'}}>
+              <a href="https://www.youtube.com/watch?v=9_IJBW0LOI4" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
                 <div style={{margin: '20px', padding: '30px', background: '#ffcece', borderRadius: '15px'}}>
                   <h3>Janhavi Vartak</h3>
                   <p>In this video, Janhavi talked about how she got into tech and what she does as a product manager, and we debunk some myths about the tech industry. She gives advice on how to get started in tech, taking advantage of your opportunities, and building connections.&nbsp;</p>
                 </div>
+                </a>
               </div>
+              
               <div className="col-md-4 col-video-summary" style={{background: 'transparent', borderRadius: '15px', padding: '0px'}}>
-                <div className="vid-summary-low" style={{margin: '20px', padding: '30px', background: '#ffcece', borderRadius: '15px', marginTop: '100px'}}>
-                  <h3>Zineb Amrani</h3>
-                  <p>Zineb is a Data Scientist, and she discusses what she does on a day to day basis and what it means to be a woman in tech. We also cover what data science is and how it's used in companies to build better products.&nbsp;</p>
-                </div>
+                <a href="https://www.youtube.com/watch?v=H4YDZ2xC7JQ" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
+                    <div className="vid-summary-low" style={{margin: '20px', padding: '30px', background: '#ffcece', borderRadius: '15px', marginTop: '100px'}}>
+                    <h3>Zineb Amrani</h3>
+                    <p>Zineb is a Data Scientist, and she discusses what she does on a day to day basis and what it means to be a woman in tech. We also cover what data science is and how it's used in companies to build better products.&nbsp;</p>
+                    </div>
+                </a>
               </div>
+
               <div className="col-md-4 col-video-summary" style={{background: 'transparent', borderRadius: '15px', padding: '0px'}}>
+              <a href="https://www.youtube.com/watch?v=CS9iC7Tp9Uc" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
                 <div className="vid-summary-low" style={{margin: '20px', padding: '30px', background: '#ffcece', borderRadius: '15px', marginTop: '200px'}}>
                   <h3>Catriona Scott</h3>
                   <p>Catriona discusses her education path that led her into tech, what she does in her current software engineering job, and how the project-development cycle works. We also talk about opportunities for high school students and applying for computer science at university.</p>
                 </div>
+                </a>
               </div>
             </div>
           </div>
