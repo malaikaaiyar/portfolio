@@ -31,6 +31,7 @@ function MainContent() {
       </div>
       <div className="container">
         <div className="row">
+          <a href="https://sparklespace.com/" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
           <div className="col" style={{lineHeight: '30px'}}>
             <div className="row" style={{padding: '30px', borderRadius: '30px', background: 'linear-gradient(-127deg, #feaaa6, #ffedd1 63%), #ffd1dc', margin: '30px'}}>
               <div className="col-md-6 img-project-col" style={{padding: '0px'}}><img alt="sparkle-gif" className="img-project" src="assets/img/ezgif.com-gif-maker%20(3).gif" style={{borderRadius: '20px', width: '100%', margin: '10px'}} /><img alt="sparkle-gif-2" className="img-project" src="assets/img/ezgif.com-gif-maker%20(4).gif" style={{borderRadius: '20px', width: '100%', margin: '10px'}} /></div>
@@ -40,8 +41,10 @@ function MainContent() {
               </div>
             </div>
           </div>
+          </a>
         </div>
         <div className="row">
+        <a href="https://malaika-art-history.netlify.app/" target="_blank" rel="noreferrer" style={{textDecoration: 'none'}}>
           <div className="col">
             <div className="row" style={{padding: '30px', borderRadius: '30px', background: 'linear-gradient(130deg, #F7E7BF 12%, #F9CCF5), #fffdc3', margin: '30px'}}>
               <div className="col-md-6" style={{padding: '0px'}}><img alt="art app gif" src="assets/img/ezgif.com-gif-maker.gif" style={{borderRadius: '20px', width: '100%', margin: '10px'}} /></div>
@@ -51,6 +54,7 @@ function MainContent() {
               </div>
             </div>
           </div>
+          </a>
         </div>
       </div>
     </div>
